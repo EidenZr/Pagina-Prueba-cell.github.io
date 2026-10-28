@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TecnoPhone Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top menu-principal">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+            <img src="imagenes/logo/logo.png" alt="Logo de TecnoPhone Store" class="logo" />
+            <span>TecnoPhone Store</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Abrir menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menuNavegacion">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+              <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div id="carruselOfertas" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-touch="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselOfertas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Oferta 1"></button>
+            <button type="button" data-bs-target="#carruselOfertas" data-bs-slide-to="1" aria-label="Oferta 2"></button>
+            <button type="button" data-bs-target="#carruselOfertas" data-bs-slide-to="2" aria-label="Oferta 3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Celular moderno en oferta" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Celulares nuevos en tienda" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Accesorios y tecnología móvil" />
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselOfertas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselOfertas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+
+        <div class="hero-contenido">
+          <p class="eyebrow">Tecnología al alcance de todos</p>
+          <h1>Celulares modernos al mejor precio</h1>
+          <p>Encuentra smartphones, accesorios y asesoramiento confiable para elegir el equipo ideal para tu día a día.</p>
+          <div class="hero-actions">
+            <a href="productos.html" class="btn btn-primary btn-lg boton-accion"><i class="bi bi-phone"></i> Ver productos</a>
+            <a href="contacto.html" class="btn btn-outline-light btn-lg">Solicitar asesoría</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion productos">
+        <div class="container">
+          <div class="titulo-seccion">
+            <span>Nuestros equipos</span>
+            <h2>Productos destacados</h2>
+          </div>
+
+          <div class="fila-productos">
+            <article class="card producto-card">
+              <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=700&q=80" class="card-img-top" alt="Smartphone Galaxy A55" />
+              <div class="card-body">
+                <h3 class="card-title">Galaxy A55</h3>
+                <p class="card-text">Pantalla AMOLED, cámara triple y batería de larga duración para estudiar, trabajar y jugar.</p>
+                <p class="precio">Bs 2.850</p>
+                <a href="contacto.html" class="btn btn-outline-primary w-100">Consultar</a>
+              </div>
+            </article>
+
+            <article class="card producto-card">
+              <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=700&q=80" class="card-img-top" alt="iPhone 13" />
+              <div class="card-body">
+                <h3 class="card-title">iPhone 13</h3>
+                <p class="card-text">Equipo elegante, rápido y seguro, ideal para fotos, videos y uso diario de alto rendimiento.</p>
+                <p class="precio">Bs 4.900</p>
+                <a href="contacto.html" class="btn btn-outline-primary w-100">Consultar</a>
+              </div>
+            </article>
+
+            <article class="card producto-card">
+              <img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80" class="card-img-top" alt="Redmi Note 13" />
+              <div class="card-body">
+                <h3 class="card-title">Redmi Note 13</h3>
+                <p class="card-text">Gran memoria, carga rápida y excelente relación precio-calidad para usuarios exigentes.</p>
+                <p class="precio">Bs 1.950</p>
+                <a href="contacto.html" class="btn btn-outline-primary w-100">Consultar</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="nosotros seccion">
+        <div class="container nosotros-contenido">
+          <div>
+            <span class="etiqueta">Sobre nosotros</span>
+            <h2>Asesoría honesta para comprar mejor</h2>
+            <p>En TecnoPhone Store ayudamos a nuestros clientes a encontrar celulares originales, accesorios útiles y planes de pago accesibles. Nuestro objetivo es que cada persona salga con un equipo que realmente se adapte a sus necesidades.</p>
+          </div>
+          <div class="beneficios">
+            <div><i class="bi bi-shield-check"></i><span>Garantía incluida</span></div>
+            <div><i class="bi bi-credit-card"></i><span>Pagos flexibles</span></div>
+            <div><i class="bi bi-headset"></i><span>Soporte técnico</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacto seccion">
+        <div class="container">
+          <div class="titulo-seccion">
+            <span>Contáctanos</span>
+            <h2>Reserva tu celular hoy</h2>
+          </div>
+
+          <div class="contacto-grid">
+            <div class="contacto-item">
+              <i class="bi bi-telephone-fill"></i>
+              <h3>Teléfono</h3>
+              <p>+591 7000 1234</p>
+            </div>
+            <div class="contacto-item">
+              <i class="bi bi-whatsapp"></i>
+              <h3>WhatsApp</h3>
+              <p>+591 7654 9876</p>
+            </div>
+            <div class="contacto-item">
+              <i class="bi bi-envelope-fill"></i>
+              <h3>Correo</h3>
+              <p>ventas@tecnophone.com</p>
+            </div>
+            <div class="contacto-item">
+              <i class="bi bi-geo-alt-fill"></i>
+              <h3>Dirección</h3>
+              <p>Av. Tecnológica #123, La Paz</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-contenido">
+        <p>&copy; 2026 TecnoPhone Store. Todos los derechos reservados.</p>
+        <div class="redes">
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
